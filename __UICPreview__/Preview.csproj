@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{23B57BC9-0B58-46FE-8316-5B6412BA156A}</ProjectGuid>
+    <ProjectTypeGuids>{69878862-DA7D-4DC6-B0A1-50D8FAB4242F};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Preview</RootNamespace>
+    <AssemblyName>Preview</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ZeroStep.composer.cs" />
+    <Compile Include="ZeroStep.cs" />
+    <Compile Include="UIStringTable.cs" />
+    <Compile Include="appmain.cs" />
+    <Compile Include="FirstStep.composer.cs" />
+    <Compile Include="FirstStep.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\assets\AxW670QPAOA.jpg">
+      <Link>assets\AxW670QPAOA.jpg</Link>
+    </Content>
+    <Content Include="..\assets\fire1.png">
+      <Link>assets\fire1.png</Link>
+    </Content>
+    <Content Include="..\assets\no2.png">
+      <Link>assets\no2.png</Link>
+    </Content>
+    <Content Include="..\assets\tumblr_luah9i2o9y1qcri28o1_50011.jpg">
+      <Link>assets\tumblr_luah9i2o9y1qcri28o1_50011.jpg</Link>
+    </Content>
+    <Content Include="..\assets\yes2.png">
+      <Link>assets\yes2.png</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Sce.PlayStation.Core" />
+    <Reference Include="Sce.PlayStation.HighLevel.UI" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sce\Sce.Psm.CSharp.targets" />
+</Project>

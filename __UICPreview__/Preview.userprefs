@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="appmain.cs">
+    <Files>
+      <File FileName="ZeroStep.composer.cs" Line="38" Column="2" />
+      <File FileName="FirstStep.composer.cs" Line="16" Column="29" />
+      <File FileName="__DummyProgram.cs" Line="23" Column="23" />
+      <File FileName="TouchSample.cs" Line="73" Column="2" />
+      <File FileName="appmain.cs" Line="61" Column="26" />
+      <File FileName="Change.cs" Line="15" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
